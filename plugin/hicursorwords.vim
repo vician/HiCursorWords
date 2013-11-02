@@ -50,7 +50,7 @@ highlight! link WordUnderTheCursor MatchParen
 
 augroup HiCursorWords
     autocmd!
-    autocmd  CursorMoved,CursorMovedI  *  call s:HiCursorWords__startHilighting()
+    autocmd  CursorMoved  *  call s:HiCursorWords__startHilighting()
 augroup END
 
 
@@ -116,4 +116,4 @@ function! s:HiCursorWords__startHilighting()
     augroup END
 endfunction
 
-" vim: set et ft=vim sts=4 sw=4 ts=4 tw=78 : 
+" vim: set et ft=vim sts=4 sw=4 ts=4 tw=78 :
