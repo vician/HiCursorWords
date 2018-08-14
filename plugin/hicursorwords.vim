@@ -46,7 +46,7 @@ if !exists('g:HiCursorWords_debugEchoHiName')
 endif
 
 
-highlight! link WordUnderTheCursor UnderCursor
+highlight! link WordUnderTheCursor Underlined
 
 augroup HiCursorWords
     autocmd!
